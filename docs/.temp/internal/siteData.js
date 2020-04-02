@@ -3,8 +3,8 @@
  */
 export const siteData = {
   "title": "TypeScript learn",
-  "description": "学习TypeScript所做的笔记",
-  "base": "/",
+  "description": "学习TypeScript所做的笔记(假设你已经了解基础TypeScript)",
+  "base": "/learn-typescript/",
   "pages": [
     {
       "title": "Home",

@@ -1,11 +1,11 @@
 module.exports = {
   title: "TypeScript learn",
-  description: "学习TypeScript所做的笔记",
+  description: "学习TypeScript所做的笔记(假设你已经了解基础TypeScript)",
   // 注入到当前页面的 HTML <head> 中的标签
   head: [
     ["link", { rel: "icon", href: "/logo.png" }] // 增加一个自定义的 favicon(网页标签的图标)
   ],
-  base: "/", // 这是部署到github相关的配置 下面会讲
+  base: "/learn-typescript/", // 这是部署到github相关的配置 下面会讲
   markdown: {
     lineNumbers: true // 代码块显示行号
   },
