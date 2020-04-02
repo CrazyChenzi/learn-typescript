@@ -32,82 +32,8 @@ export const siteData = {
       "regularPath": "/",
       "relativePath": "README.md",
       "key": "v-230a6784",
-      "path": "/"
-    },
-    {
-      "title": "Basic Types",
-      "frontmatter": {},
-      "regularPath": "/types/",
-      "relativePath": "types/README.md",
-      "key": "v-04eab117",
-      "path": "/types/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Basic Types",
-          "slug": "basic-types"
-        },
-        {
-          "level": 3,
-          "title": "Boolean",
-          "slug": "boolean"
-        },
-        {
-          "level": 3,
-          "title": "Number",
-          "slug": "number"
-        },
-        {
-          "level": 3,
-          "title": "String",
-          "slug": "string"
-        },
-        {
-          "level": 3,
-          "title": "Array",
-          "slug": "array"
-        },
-        {
-          "level": 3,
-          "title": "Tuple",
-          "slug": "tuple"
-        },
-        {
-          "level": 3,
-          "title": "Enum",
-          "slug": "enum"
-        },
-        {
-          "level": 3,
-          "title": "Any",
-          "slug": "any"
-        },
-        {
-          "level": 3,
-          "title": "Void",
-          "slug": "void"
-        },
-        {
-          "level": 3,
-          "title": "Null/Undefined",
-          "slug": "null-undefined"
-        },
-        {
-          "level": 3,
-          "title": "Never",
-          "slug": "never"
-        },
-        {
-          "level": 3,
-          "title": "Object",
-          "slug": "object"
-        },
-        {
-          "level": 2,
-          "title": "advanced-types",
-          "slug": "advanced-types"
-        }
-      ]
+      "path": "/",
+      "lastUpdated": "4/2/2020, 5:50:41 PM"
     },
     {
       "title": "Type assertions 输入断言",
@@ -157,7 +83,8 @@ export const siteData = {
           "title": "Nullish Coalescing",
           "slug": "nullish-coalescing"
         }
-      ]
+      ],
+      "lastUpdated": "4/2/2020, 5:50:41 PM"
     },
     {
       "title": "关键字",
@@ -292,7 +219,84 @@ export const siteData = {
           "title": "Proxify",
           "slug": "proxify"
         }
-      ]
+      ],
+      "lastUpdated": "4/2/2020, 5:50:41 PM"
+    },
+    {
+      "title": "Basic Types",
+      "frontmatter": {},
+      "regularPath": "/types/",
+      "relativePath": "types/README.md",
+      "key": "v-04eab117",
+      "path": "/types/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Basic Types",
+          "slug": "basic-types"
+        },
+        {
+          "level": 3,
+          "title": "Boolean",
+          "slug": "boolean"
+        },
+        {
+          "level": 3,
+          "title": "Number",
+          "slug": "number"
+        },
+        {
+          "level": 3,
+          "title": "String",
+          "slug": "string"
+        },
+        {
+          "level": 3,
+          "title": "Array",
+          "slug": "array"
+        },
+        {
+          "level": 3,
+          "title": "Tuple",
+          "slug": "tuple"
+        },
+        {
+          "level": 3,
+          "title": "Enum",
+          "slug": "enum"
+        },
+        {
+          "level": 3,
+          "title": "Any",
+          "slug": "any"
+        },
+        {
+          "level": 3,
+          "title": "Void",
+          "slug": "void"
+        },
+        {
+          "level": 3,
+          "title": "Null/Undefined",
+          "slug": "null-undefined"
+        },
+        {
+          "level": 3,
+          "title": "Never",
+          "slug": "never"
+        },
+        {
+          "level": 3,
+          "title": "Object",
+          "slug": "object"
+        },
+        {
+          "level": 2,
+          "title": "advanced-types",
+          "slug": "advanced-types"
+        }
+      ],
+      "lastUpdated": "4/2/2020, 5:50:41 PM"
     }
   ],
   "themeConfig": {
