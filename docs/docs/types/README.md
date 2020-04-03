@@ -129,3 +129,5 @@ function fixed(name: string | null): string {
   return postfix("great");
 }
 ```
+
+<Vssue title="Type" />

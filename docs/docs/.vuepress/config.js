@@ -72,9 +72,19 @@ module.exports = {
           ]
         }
       ]
-    }
+    },
   },
   plugins: [
-    ['@vuepress/back-to-top']
+    ['@vuepress/back-to-top', false],
+    ['go-top'],
+    ['@vssue/vuepress-plugin-vssue', {
+      // 设置 `platform` 而不是 `api`
+      platform: 'github',
+      // 其他的 Vssue 配置
+      owner: 'blacklisten',
+      repo: 'learn-typescript',
+      clientId: '2bfe528f313acbbd4c35',
+      clientSecret: 'c449b0a1c046d3ca7647e9744c8f01ffba6abcba'
+    }]
   ]
 }

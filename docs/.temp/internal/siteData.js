@@ -200,87 +200,6 @@ export const siteData = {
       "lastUpdated": "4/3/2020, 5:57:00 PM"
     },
     {
-      "title": "Basic Types",
-      "frontmatter": {},
-      "regularPath": "/types/",
-      "relativePath": "types/README.md",
-      "key": "v-04eab117",
-      "path": "/types/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Basic Types",
-          "slug": "basic-types"
-        },
-        {
-          "level": 3,
-          "title": "Boolean",
-          "slug": "boolean"
-        },
-        {
-          "level": 3,
-          "title": "Number",
-          "slug": "number"
-        },
-        {
-          "level": 3,
-          "title": "String",
-          "slug": "string"
-        },
-        {
-          "level": 3,
-          "title": "Array",
-          "slug": "array"
-        },
-        {
-          "level": 3,
-          "title": "Tuple",
-          "slug": "tuple"
-        },
-        {
-          "level": 3,
-          "title": "Enum",
-          "slug": "enum"
-        },
-        {
-          "level": 3,
-          "title": "Any",
-          "slug": "any"
-        },
-        {
-          "level": 3,
-          "title": "Void",
-          "slug": "void"
-        },
-        {
-          "level": 3,
-          "title": "Null/Undefined",
-          "slug": "null-undefined"
-        },
-        {
-          "level": 3,
-          "title": "Never",
-          "slug": "never"
-        },
-        {
-          "level": 3,
-          "title": "Object",
-          "slug": "object"
-        },
-        {
-          "level": 2,
-          "title": "advanced-types",
-          "slug": "advanced-types"
-        },
-        {
-          "level": 3,
-          "title": "Nullable types",
-          "slug": "nullable-types"
-        }
-      ],
-      "lastUpdated": "4/3/2020, 5:57:00 PM"
-    },
-    {
       "title": "关键字",
       "frontmatter": {},
       "regularPath": "/typealias/",
@@ -412,6 +331,87 @@ export const siteData = {
           "level": 3,
           "title": "Proxify",
           "slug": "proxify"
+        }
+      ],
+      "lastUpdated": "4/3/2020, 5:57:00 PM"
+    },
+    {
+      "title": "Basic Types",
+      "frontmatter": {},
+      "regularPath": "/types/",
+      "relativePath": "types/README.md",
+      "key": "v-04eab117",
+      "path": "/types/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Basic Types",
+          "slug": "basic-types"
+        },
+        {
+          "level": 3,
+          "title": "Boolean",
+          "slug": "boolean"
+        },
+        {
+          "level": 3,
+          "title": "Number",
+          "slug": "number"
+        },
+        {
+          "level": 3,
+          "title": "String",
+          "slug": "string"
+        },
+        {
+          "level": 3,
+          "title": "Array",
+          "slug": "array"
+        },
+        {
+          "level": 3,
+          "title": "Tuple",
+          "slug": "tuple"
+        },
+        {
+          "level": 3,
+          "title": "Enum",
+          "slug": "enum"
+        },
+        {
+          "level": 3,
+          "title": "Any",
+          "slug": "any"
+        },
+        {
+          "level": 3,
+          "title": "Void",
+          "slug": "void"
+        },
+        {
+          "level": 3,
+          "title": "Null/Undefined",
+          "slug": "null-undefined"
+        },
+        {
+          "level": 3,
+          "title": "Never",
+          "slug": "never"
+        },
+        {
+          "level": 3,
+          "title": "Object",
+          "slug": "object"
+        },
+        {
+          "level": 2,
+          "title": "advanced-types",
+          "slug": "advanced-types"
+        },
+        {
+          "level": 3,
+          "title": "Nullable types",
+          "slug": "nullable-types"
         }
       ],
       "lastUpdated": "4/3/2020, 5:57:00 PM"

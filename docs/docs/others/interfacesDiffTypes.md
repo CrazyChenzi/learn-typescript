@@ -182,3 +182,5 @@ type BoxType = {
 [interfaces](https://www.typescriptlang.org/docs/handbook/interfaces.html)
 
 [type-aliases](https://www.typescriptlang.org/docs/handbook/advanced-types.html#type-aliases)
+
+<Vssue title="Others" />

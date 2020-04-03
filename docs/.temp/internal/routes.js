@@ -61,18 +61,6 @@ export const routes = [
     },
   },
   {
-    name: "v-04eab117",
-    path: "/types/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-04eab117").then(next)
-    },
-  },
-  {
-    path: "/types/index.html",
-    redirect: "/types/"
-  },
-  {
     name: "v-33d4279d",
     path: "/typealias/",
     component: GlobalLayout,
@@ -83,6 +71,18 @@ export const routes = [
   {
     path: "/typealias/index.html",
     redirect: "/typealias/"
+  },
+  {
+    name: "v-04eab117",
+    path: "/types/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-04eab117").then(next)
+    },
+  },
+  {
+    path: "/types/index.html",
+    redirect: "/types/"
   },
   {
     path: '*',

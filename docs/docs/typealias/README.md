@@ -321,3 +321,5 @@ type Proxify<T> = {[P in keyof T]: { get(): T[P]; set(v: T[P]): void }}
 type proxifyTest = Proxify<Person>
 type proxifyTest1 = Proxify<ITypeAlias>
 ```
+
+<Vssue title="TypeAlias" />

@@ -1,0 +1,1 @@
+export { default } from "F:\\blacklisten\\learn-typescript\\docs\\node_modules\\vuepress-plugin-go-top\\bin\\enhanceAppFile.js"
