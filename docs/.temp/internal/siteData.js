@@ -36,6 +36,55 @@ export const siteData = {
       "lastUpdated": "4/2/2020, 5:50:41 PM"
     },
     {
+      "frontmatter": {},
+      "regularPath": "/others/anyDiffUnknown.html",
+      "relativePath": "others/anyDiffUnknown.md",
+      "key": "v-54c48faa",
+      "path": "/others/anyDiffUnknown.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "any",
+          "slug": "any"
+        },
+        {
+          "level": 2,
+          "title": "unknown类型",
+          "slug": "unknown类型"
+        },
+        {
+          "level": 2,
+          "title": "缩小unknown类型范围",
+          "slug": "缩小unknown类型范围"
+        },
+        {
+          "level": 2,
+          "title": "联合类型中的unknown类型",
+          "slug": "联合类型中的unknown类型"
+        },
+        {
+          "level": 2,
+          "title": "交叉类型中的unknown类型",
+          "slug": "交叉类型中的unknown类型"
+        },
+        {
+          "level": 2,
+          "title": "unknown可以使用的运算符",
+          "slug": "unknown可以使用的运算符"
+        },
+        {
+          "level": 2,
+          "title": "example： 从localStorage中读取JSON",
+          "slug": "example：-从localstorage中读取json"
+        },
+        {
+          "level": 2,
+          "title": "References",
+          "slug": "references"
+        }
+      ]
+    },
+    {
       "title": "Type assertions 输入断言",
       "frontmatter": {},
       "regularPath": "/guide/",
@@ -85,6 +134,67 @@ export const siteData = {
         }
       ],
       "lastUpdated": "4/2/2020, 5:50:41 PM"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/others/",
+      "relativePath": "others/README.md",
+      "key": "v-fae5657e",
+      "path": "/others/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/others/interfacesDiffTypes.html",
+      "relativePath": "others/interfacesDiffTypes.md",
+      "key": "v-57962f9a",
+      "path": "/others/interfacesDiffTypes.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Same point",
+          "slug": "same-point"
+        },
+        {
+          "level": 3,
+          "title": "都可以描述一个对象或者函数",
+          "slug": "都可以描述一个对象或者函数"
+        },
+        {
+          "level": 3,
+          "title": "都可以进行拓展",
+          "slug": "都可以进行拓展"
+        },
+        {
+          "level": 3,
+          "title": "具有类型别名和接口的混合类型",
+          "slug": "具有类型别名和接口的混合类型"
+        },
+        {
+          "level": 2,
+          "title": "Difference",
+          "slug": "difference"
+        },
+        {
+          "level": 3,
+          "title": "如果在类型定义中使用联合运算符，则不能在类型别名的类上使用 implements",
+          "slug": "如果在类型定义中使用联合运算符，则不能在类型别名的类上使用-implements"
+        },
+        {
+          "level": 3,
+          "title": "如果在类型定义中使用联合运算符，则不能在具有类型别名的接口上使用 extends",
+          "slug": "如果在类型定义中使用联合运算符，则不能在具有类型别名的接口上使用-extends"
+        },
+        {
+          "level": 3,
+          "title": "声明合并不适用于类型别名",
+          "slug": "声明合并不适用于类型别名"
+        },
+        {
+          "level": 2,
+          "title": "References",
+          "slug": "references"
+        }
+      ]
     },
     {
       "title": "关键字",
@@ -294,6 +404,11 @@ export const siteData = {
           "level": 2,
           "title": "advanced-types",
           "slug": "advanced-types"
+        },
+        {
+          "level": 3,
+          "title": "Nullable types",
+          "slug": "nullable-types"
         }
       ],
       "lastUpdated": "4/2/2020, 5:50:41 PM"
@@ -314,6 +429,10 @@ export const siteData = {
       {
         "text": "TypeAlias",
         "link": "/typealias/"
+      },
+      {
+        "text": "Others",
+        "link": "/others/"
       },
       {
         "text": "Github",
@@ -346,6 +465,28 @@ export const siteData = {
           "collapsable": false,
           "sidebarDepth": 2,
           "children": []
+        }
+      ],
+      "/others/": [
+        {
+          "title": "其它笔记...",
+          "path": "/others/",
+          "collapsable": false,
+          "sidebarDepth": 2,
+          "children": [
+            {
+              "title": "Interfaces vs Types",
+              "path": "/others/interfacesDiffTypes",
+              "collapsable": false,
+              "sidebarDepth": 2
+            },
+            {
+              "title": "Any vs Unknowns",
+              "path": "/others/anyDiffUnknown",
+              "collapsable": false,
+              "sidebarDepth": 2
+            }
+          ]
         }
       ]
     }

@@ -47,7 +47,7 @@ enum Color {Red = 'Red', Blue = 'Blue', Yellow = 'Yellow'}
 
 **可以为任何类型，是一个顶层类型**
 
-[Any和Unknown的区别]()
+[Any和Unknown的区别](https://blacklisten.github.io/learn-typescript/others/anyDiffUnknown.html)
 
 ### Void
 
@@ -106,3 +106,26 @@ create(undefined); // Error
 ## advanced-types
 
 [官方文档](https://www.typescriptlang.org/docs/handbook/advanced-types.html)
+
+### Nullable types
+
+> In cases where the compiler can’t eliminate null or undefined, you can use the type assertion operator to manually remove them. The syntax is postfix !: identifier! removes null and undefined from the type of identifier 如果编译器不能够去除 null或 undefined，你可以使用类型断言手动去除。 语法是添加 !后缀： identifier!从 identifier的类型里去除了 null和 undefined
+
+
+```ts
+function broken(name: string | null): string {
+  function postfix(epithet: string) {
+    return name.charAt(0) + '.  the ' + epithet; // error, 'name' is possibly null
+  }
+  name = name || "Bob";
+  return postfix("great");
+}
+
+function fixed(name: string | null): string {
+  function postfix(epithet: string) {
+    return name!.charAt(0) + '.  the ' + epithet; // ok
+  }
+  name = name || "Bob";
+  return postfix("great");
+}
+```

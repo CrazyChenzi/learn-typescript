@@ -16,6 +16,7 @@ module.exports = {
       { text: "Guide", link: "/guide/" },
       { text: "Types", link: "/types/" },
       { text: "TypeAlias", link: "/typealias/" },
+      { text: "Others", link: "/others/" },
       {
         text: "Github",
         link: "https://github.com/blacklisten/learn-typescript"
@@ -47,6 +48,28 @@ module.exports = {
           collapsable: false,
           sidebarDepth : 2,
           children: []
+        }
+      ],
+      "/others/": [
+        {
+          title: "其它笔记...",
+          path: "/others/",
+          collapsable: false,
+          sidebarDepth: 2,
+          children: [
+            {
+              title: "Interfaces vs Types",
+              path: "/others/interfacesDiffTypes",
+              collapsable: false,
+              sidebarDepth: 2
+            },
+            {
+              title: "Any vs Unknowns",
+              path: "/others/anyDiffUnknown",
+              collapsable: false,
+              sidebarDepth: 2
+            }
+          ]
         }
       ]
     }

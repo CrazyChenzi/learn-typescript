@@ -2,6 +2,8 @@
 
 使用类型别名可以实现很多的复杂类型，很多复杂类型都需要借助关键字来实现
 
+[文档链接](https://www.typescriptlang.org/docs/handbook/advanced-types.html#type-aliases)
+
 *全局interface定义*在后面会用到
 
 ```ts
