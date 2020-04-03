@@ -36,55 +36,6 @@ export const siteData = {
       "lastUpdated": "4/2/2020, 5:50:41 PM"
     },
     {
-      "frontmatter": {},
-      "regularPath": "/others/anyDiffUnknown.html",
-      "relativePath": "others/anyDiffUnknown.md",
-      "key": "v-54c48faa",
-      "path": "/others/anyDiffUnknown.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "any",
-          "slug": "any"
-        },
-        {
-          "level": 2,
-          "title": "unknown类型",
-          "slug": "unknown类型"
-        },
-        {
-          "level": 2,
-          "title": "缩小unknown类型范围",
-          "slug": "缩小unknown类型范围"
-        },
-        {
-          "level": 2,
-          "title": "联合类型中的unknown类型",
-          "slug": "联合类型中的unknown类型"
-        },
-        {
-          "level": 2,
-          "title": "交叉类型中的unknown类型",
-          "slug": "交叉类型中的unknown类型"
-        },
-        {
-          "level": 2,
-          "title": "unknown可以使用的运算符",
-          "slug": "unknown可以使用的运算符"
-        },
-        {
-          "level": 2,
-          "title": "example： 从localStorage中读取JSON",
-          "slug": "example：-从localstorage中读取json"
-        },
-        {
-          "level": 2,
-          "title": "References",
-          "slug": "references"
-        }
-      ]
-    },
-    {
       "title": "Type assertions 输入断言",
       "frontmatter": {},
       "regularPath": "/guide/",
@@ -137,10 +88,61 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/others/anyDiffUnknown.html",
+      "relativePath": "others/anyDiffUnknown.md",
+      "key": "v-54c48faa",
+      "path": "/others/anyDiffUnknown.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "any",
+          "slug": "any"
+        },
+        {
+          "level": 2,
+          "title": "unknown类型",
+          "slug": "unknown类型"
+        },
+        {
+          "level": 2,
+          "title": "缩小unknown类型范围",
+          "slug": "缩小unknown类型范围"
+        },
+        {
+          "level": 2,
+          "title": "联合类型中的unknown类型",
+          "slug": "联合类型中的unknown类型"
+        },
+        {
+          "level": 2,
+          "title": "交叉类型中的unknown类型",
+          "slug": "交叉类型中的unknown类型"
+        },
+        {
+          "level": 2,
+          "title": "unknown可以使用的运算符",
+          "slug": "unknown可以使用的运算符"
+        },
+        {
+          "level": 2,
+          "title": "example： 从localStorage中读取JSON",
+          "slug": "example：-从localstorage中读取json"
+        },
+        {
+          "level": 2,
+          "title": "References",
+          "slug": "references"
+        }
+      ],
+      "lastUpdated": "4/3/2020, 5:57:00 PM"
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/others/",
       "relativePath": "others/README.md",
       "key": "v-fae5657e",
-      "path": "/others/"
+      "path": "/others/",
+      "lastUpdated": "4/3/2020, 5:57:00 PM"
     },
     {
       "frontmatter": {},
@@ -194,7 +196,89 @@ export const siteData = {
           "title": "References",
           "slug": "references"
         }
-      ]
+      ],
+      "lastUpdated": "4/3/2020, 5:57:00 PM"
+    },
+    {
+      "title": "Basic Types",
+      "frontmatter": {},
+      "regularPath": "/types/",
+      "relativePath": "types/README.md",
+      "key": "v-04eab117",
+      "path": "/types/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Basic Types",
+          "slug": "basic-types"
+        },
+        {
+          "level": 3,
+          "title": "Boolean",
+          "slug": "boolean"
+        },
+        {
+          "level": 3,
+          "title": "Number",
+          "slug": "number"
+        },
+        {
+          "level": 3,
+          "title": "String",
+          "slug": "string"
+        },
+        {
+          "level": 3,
+          "title": "Array",
+          "slug": "array"
+        },
+        {
+          "level": 3,
+          "title": "Tuple",
+          "slug": "tuple"
+        },
+        {
+          "level": 3,
+          "title": "Enum",
+          "slug": "enum"
+        },
+        {
+          "level": 3,
+          "title": "Any",
+          "slug": "any"
+        },
+        {
+          "level": 3,
+          "title": "Void",
+          "slug": "void"
+        },
+        {
+          "level": 3,
+          "title": "Null/Undefined",
+          "slug": "null-undefined"
+        },
+        {
+          "level": 3,
+          "title": "Never",
+          "slug": "never"
+        },
+        {
+          "level": 3,
+          "title": "Object",
+          "slug": "object"
+        },
+        {
+          "level": 2,
+          "title": "advanced-types",
+          "slug": "advanced-types"
+        },
+        {
+          "level": 3,
+          "title": "Nullable types",
+          "slug": "nullable-types"
+        }
+      ],
+      "lastUpdated": "4/3/2020, 5:57:00 PM"
     },
     {
       "title": "关键字",
@@ -330,88 +414,7 @@ export const siteData = {
           "slug": "proxify"
         }
       ],
-      "lastUpdated": "4/2/2020, 5:50:41 PM"
-    },
-    {
-      "title": "Basic Types",
-      "frontmatter": {},
-      "regularPath": "/types/",
-      "relativePath": "types/README.md",
-      "key": "v-04eab117",
-      "path": "/types/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Basic Types",
-          "slug": "basic-types"
-        },
-        {
-          "level": 3,
-          "title": "Boolean",
-          "slug": "boolean"
-        },
-        {
-          "level": 3,
-          "title": "Number",
-          "slug": "number"
-        },
-        {
-          "level": 3,
-          "title": "String",
-          "slug": "string"
-        },
-        {
-          "level": 3,
-          "title": "Array",
-          "slug": "array"
-        },
-        {
-          "level": 3,
-          "title": "Tuple",
-          "slug": "tuple"
-        },
-        {
-          "level": 3,
-          "title": "Enum",
-          "slug": "enum"
-        },
-        {
-          "level": 3,
-          "title": "Any",
-          "slug": "any"
-        },
-        {
-          "level": 3,
-          "title": "Void",
-          "slug": "void"
-        },
-        {
-          "level": 3,
-          "title": "Null/Undefined",
-          "slug": "null-undefined"
-        },
-        {
-          "level": 3,
-          "title": "Never",
-          "slug": "never"
-        },
-        {
-          "level": 3,
-          "title": "Object",
-          "slug": "object"
-        },
-        {
-          "level": 2,
-          "title": "advanced-types",
-          "slug": "advanced-types"
-        },
-        {
-          "level": 3,
-          "title": "Nullable types",
-          "slug": "nullable-types"
-        }
-      ],
-      "lastUpdated": "4/2/2020, 5:50:41 PM"
+      "lastUpdated": "4/3/2020, 5:57:00 PM"
     }
   ],
   "themeConfig": {
@@ -481,7 +484,7 @@ export const siteData = {
               "sidebarDepth": 2
             },
             {
-              "title": "Any vs Unknowns",
+              "title": "Any vs Unknown",
               "path": "/others/anyDiffUnknown",
               "collapsable": false,
               "sidebarDepth": 2

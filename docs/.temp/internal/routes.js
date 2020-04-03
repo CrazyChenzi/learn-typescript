@@ -21,14 +21,6 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-54c48faa",
-    path: "/others/anyDiffUnknown.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-54c48faa").then(next)
-    },
-  },
-  {
     name: "v-044032d1",
     path: "/guide/",
     component: GlobalLayout,
@@ -39,6 +31,14 @@ export const routes = [
   {
     path: "/guide/index.html",
     redirect: "/guide/"
+  },
+  {
+    name: "v-54c48faa",
+    path: "/others/anyDiffUnknown.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-54c48faa").then(next)
+    },
   },
   {
     name: "v-fae5657e",
@@ -61,18 +61,6 @@ export const routes = [
     },
   },
   {
-    name: "v-33d4279d",
-    path: "/typealias/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-33d4279d").then(next)
-    },
-  },
-  {
-    path: "/typealias/index.html",
-    redirect: "/typealias/"
-  },
-  {
     name: "v-04eab117",
     path: "/types/",
     component: GlobalLayout,
@@ -83,6 +71,18 @@ export const routes = [
   {
     path: "/types/index.html",
     redirect: "/types/"
+  },
+  {
+    name: "v-33d4279d",
+    path: "/typealias/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-33d4279d").then(next)
+    },
+  },
+  {
+    path: "/typealias/index.html",
+    redirect: "/typealias/"
   },
   {
     path: '*',

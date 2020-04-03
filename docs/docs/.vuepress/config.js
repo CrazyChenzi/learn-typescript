@@ -64,7 +64,7 @@ module.exports = {
               sidebarDepth: 2
             },
             {
-              title: "Any vs Unknowns",
+              title: "Any vs Unknown",
               path: "/others/anyDiffUnknown",
               collapsable: false,
               sidebarDepth: 2
