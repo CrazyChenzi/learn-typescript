@@ -183,4 +183,4 @@ type BoxType = {
 
 [type-aliases](https://www.typescriptlang.org/docs/handbook/advanced-types.html#type-aliases)
 
-<Vssue title="Others" />
+<Vssue title="InterfacesDiffTypes" />

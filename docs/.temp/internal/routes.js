@@ -45,6 +45,18 @@ export const routes = [
     },
   },
   {
+    name: "v-fae5657e",
+    path: "/others/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-fae5657e").then(next)
+    },
+  },
+  {
+    path: "/others/index.html",
+    redirect: "/others/"
+  },
+  {
     name: "v-044032d1",
     path: "/guide/",
     component: GlobalLayout,
@@ -65,26 +77,6 @@ export const routes = [
     },
   },
   {
-    name: "v-fae5657e",
-    path: "/others/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-fae5657e").then(next)
-    },
-  },
-  {
-    path: "/others/index.html",
-    redirect: "/others/"
-  },
-  {
-    name: "v-57962f9a",
-    path: "/others/interfacesDiffTypes.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-57962f9a").then(next)
-    },
-  },
-  {
     name: "v-33d4279d",
     path: "/typealias/",
     component: GlobalLayout,
@@ -95,6 +87,14 @@ export const routes = [
   {
     path: "/typealias/index.html",
     redirect: "/typealias/"
+  },
+  {
+    name: "v-57962f9a",
+    path: "/others/interfacesDiffTypes.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-57962f9a").then(next)
+    },
   },
   {
     name: "v-04eab117",

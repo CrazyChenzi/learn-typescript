@@ -132,4 +132,4 @@ namespace Person {
 
 [namespaces](https://www.typescriptlang.org/docs/handbook/namespaces.html)
 
-<Vssue title="TypeAlias" />
+<Vssue title="Namespace" />

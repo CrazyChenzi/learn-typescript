@@ -85,4 +85,4 @@ declare namespace DeclareNameSpace {
 
 [declaration-files](https://www.typescriptlang.org/docs/handbook/declaration-files/by-example.html)
 
-<Vssue title="TypeAlias" />
+<Vssue title="Declare" />

@@ -77,7 +77,8 @@ export const siteData = {
           "title": "References",
           "slug": "references"
         }
-      ]
+      ],
+      "lastUpdated": "4/10/2020, 8:03:04 PM"
     },
     {
       "frontmatter": {},
@@ -101,7 +102,8 @@ export const siteData = {
           "title": "References",
           "slug": "references"
         }
-      ]
+      ],
+      "lastUpdated": "4/10/2020, 8:03:04 PM"
     },
     {
       "frontmatter": {},
@@ -145,7 +147,16 @@ export const siteData = {
           "title": "References",
           "slug": "references"
         }
-      ]
+      ],
+      "lastUpdated": "4/10/2020, 8:03:04 PM"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/others/",
+      "relativePath": "others/README.md",
+      "key": "v-fae5657e",
+      "path": "/others/",
+      "lastUpdated": "4/3/2020, 5:57:00 PM"
     },
     {
       "title": "Type assertions 输入断言",
@@ -239,69 +250,6 @@ export const siteData = {
           "level": 2,
           "title": "example： 从localStorage中读取JSON",
           "slug": "example：-从localstorage中读取json"
-        },
-        {
-          "level": 2,
-          "title": "References",
-          "slug": "references"
-        }
-      ],
-      "lastUpdated": "4/3/2020, 8:15:37 PM"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/others/",
-      "relativePath": "others/README.md",
-      "key": "v-fae5657e",
-      "path": "/others/",
-      "lastUpdated": "4/3/2020, 5:57:00 PM"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/others/interfacesDiffTypes.html",
-      "relativePath": "others/interfacesDiffTypes.md",
-      "key": "v-57962f9a",
-      "path": "/others/interfacesDiffTypes.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Same point",
-          "slug": "same-point"
-        },
-        {
-          "level": 3,
-          "title": "都可以描述一个对象或者函数",
-          "slug": "都可以描述一个对象或者函数"
-        },
-        {
-          "level": 3,
-          "title": "都可以进行拓展",
-          "slug": "都可以进行拓展"
-        },
-        {
-          "level": 3,
-          "title": "具有类型别名和接口的混合类型",
-          "slug": "具有类型别名和接口的混合类型"
-        },
-        {
-          "level": 2,
-          "title": "Difference",
-          "slug": "difference"
-        },
-        {
-          "level": 3,
-          "title": "如果在类型定义中使用联合运算符，则不能在类型别名的类上使用 implements",
-          "slug": "如果在类型定义中使用联合运算符，则不能在类型别名的类上使用-implements"
-        },
-        {
-          "level": 3,
-          "title": "如果在类型定义中使用联合运算符，则不能在具有类型别名的接口上使用 extends",
-          "slug": "如果在类型定义中使用联合运算符，则不能在具有类型别名的接口上使用-extends"
-        },
-        {
-          "level": 3,
-          "title": "声明合并不适用于类型别名",
-          "slug": "声明合并不适用于类型别名"
         },
         {
           "level": 2,
@@ -443,6 +391,61 @@ export const siteData = {
           "level": 3,
           "title": "Proxify",
           "slug": "proxify"
+        }
+      ],
+      "lastUpdated": "4/3/2020, 8:15:37 PM"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/others/interfacesDiffTypes.html",
+      "relativePath": "others/interfacesDiffTypes.md",
+      "key": "v-57962f9a",
+      "path": "/others/interfacesDiffTypes.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Same point",
+          "slug": "same-point"
+        },
+        {
+          "level": 3,
+          "title": "都可以描述一个对象或者函数",
+          "slug": "都可以描述一个对象或者函数"
+        },
+        {
+          "level": 3,
+          "title": "都可以进行拓展",
+          "slug": "都可以进行拓展"
+        },
+        {
+          "level": 3,
+          "title": "具有类型别名和接口的混合类型",
+          "slug": "具有类型别名和接口的混合类型"
+        },
+        {
+          "level": 2,
+          "title": "Difference",
+          "slug": "difference"
+        },
+        {
+          "level": 3,
+          "title": "如果在类型定义中使用联合运算符，则不能在类型别名的类上使用 implements",
+          "slug": "如果在类型定义中使用联合运算符，则不能在类型别名的类上使用-implements"
+        },
+        {
+          "level": 3,
+          "title": "如果在类型定义中使用联合运算符，则不能在具有类型别名的接口上使用 extends",
+          "slug": "如果在类型定义中使用联合运算符，则不能在具有类型别名的接口上使用-extends"
+        },
+        {
+          "level": 3,
+          "title": "声明合并不适用于类型别名",
+          "slug": "声明合并不适用于类型别名"
+        },
+        {
+          "level": 2,
+          "title": "References",
+          "slug": "references"
         }
       ],
       "lastUpdated": "4/3/2020, 8:15:37 PM"

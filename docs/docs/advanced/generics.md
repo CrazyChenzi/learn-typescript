@@ -32,4 +32,4 @@ declare function foo<T>(arg: T): T
 
 [generics](https://www.typescriptlang.org/docs/handbook/generics.html)
 
-<Vssue title="TypeAlias" />
+<Vssue title="Generics" />
