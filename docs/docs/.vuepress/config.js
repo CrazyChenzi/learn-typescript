@@ -16,7 +16,27 @@ module.exports = {
       { text: "Guide", link: "/guide/" },
       { text: "Types", link: "/types/" },
       { text: "TypeAlias", link: "/typealias/" },
-      { text: "Others", link: "/others/" },
+      {
+        text: "Advanced",
+        items: [
+          {
+            text: "namespace",
+            link: "/advanced/namespace"
+          },
+          {
+            text: "declare",
+            link: "/advanced/declare"
+          },
+          {
+            text: "generics",
+            link: "/advanced/generics"
+          },
+        ]
+      },
+      { text: "Others", items: [
+        { text: "interfacesDiffTypes", link: "/others/interfacesDiffTypes" },
+        { text: "anyDiffUnknown", link: "/others/anyDiffUnknown" }
+      ] },
       {
         text: "Github",
         link: "https://github.com/blacklisten/learn-typescript"
@@ -71,11 +91,38 @@ module.exports = {
             }
           ]
         }
+      ],
+      "/advanced/": [
+        {
+          title: "进阶",
+          path: "/advanced/",
+          collapsable: false,
+          sidebarDepth: 2,
+          children: [
+            {
+              title: "命名空间",
+              path: "/advanced/namespace",
+              collapsable: false,
+              sidebarDepth: 2
+            },
+            {
+              title: "声明",
+              path: "/advanced/declare",
+              collapsable: false,
+              sidebarDepth: 2
+            },
+            {
+              title: "泛型",
+              path: "/advanced/generics",
+              collapsable: false,
+              sidebarDepth: 2
+            },
+          ]
+        }
       ]
     },
   },
   plugins: [
-    ['@vuepress/back-to-top', false],
     ['go-top'],
     ['@vssue/vuepress-plugin-vssue', {
       // 设置 `platform` 而不是 `api`

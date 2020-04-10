@@ -21,6 +21,30 @@ export const routes = [
     redirect: "/"
   },
   {
+    name: "v-6c404cbc",
+    path: "/advanced/declare.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6c404cbc").then(next)
+    },
+  },
+  {
+    name: "v-de1e422c",
+    path: "/advanced/generics.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-de1e422c").then(next)
+    },
+  },
+  {
+    name: "v-d4cd3ecc",
+    path: "/advanced/namespace.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-d4cd3ecc").then(next)
+    },
+  },
+  {
     name: "v-044032d1",
     path: "/guide/",
     component: GlobalLayout,

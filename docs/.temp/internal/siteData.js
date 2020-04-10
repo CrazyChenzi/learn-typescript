@@ -36,6 +36,118 @@ export const siteData = {
       "lastUpdated": "4/2/2020, 5:50:41 PM"
     },
     {
+      "frontmatter": {},
+      "regularPath": "/advanced/declare.html",
+      "relativePath": "advanced/declare.md",
+      "key": "v-6c404cbc",
+      "path": "/advanced/declare.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "全局变量",
+          "slug": "全局变量"
+        },
+        {
+          "level": 3,
+          "title": "declare var/let/const",
+          "slug": "declare-var-let-const"
+        },
+        {
+          "level": 3,
+          "title": "declare function",
+          "slug": "declare-function"
+        },
+        {
+          "level": 3,
+          "title": "declare class",
+          "slug": "declare-class"
+        },
+        {
+          "level": 3,
+          "title": "declare enum",
+          "slug": "declare-enum"
+        },
+        {
+          "level": 3,
+          "title": "declare namespace",
+          "slug": "declare-namespace"
+        },
+        {
+          "level": 2,
+          "title": "References",
+          "slug": "references"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/advanced/generics.html",
+      "relativePath": "advanced/generics.md",
+      "key": "v-de1e422c",
+      "path": "/advanced/generics.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "使用泛型",
+          "slug": "使用泛型"
+        },
+        {
+          "level": 2,
+          "title": "误用的泛型",
+          "slug": "误用的泛型"
+        },
+        {
+          "level": 2,
+          "title": "References",
+          "slug": "references"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/advanced/namespace.html",
+      "relativePath": "advanced/namespace.md",
+      "key": "v-d4cd3ecc",
+      "path": "/advanced/namespace.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "使用",
+          "slug": "使用"
+        },
+        {
+          "level": 2,
+          "title": "使用namspace管理类型",
+          "slug": "使用namspace管理类型"
+        },
+        {
+          "level": 2,
+          "title": "引入写好的namespace",
+          "slug": "引入写好的namespace"
+        },
+        {
+          "level": 3,
+          "title": "reference path='xxx.ts'",
+          "slug": "reference-path-xxx-ts"
+        },
+        {
+          "level": 3,
+          "title": "script",
+          "slug": "script"
+        },
+        {
+          "level": 2,
+          "title": "合并多个命名空间",
+          "slug": "合并多个命名空间"
+        },
+        {
+          "level": 2,
+          "title": "References",
+          "slug": "references"
+        }
+      ]
+    },
+    {
       "title": "Type assertions 输入断言",
       "frontmatter": {},
       "regularPath": "/guide/",
@@ -84,7 +196,7 @@ export const siteData = {
           "slug": "nullish-coalescing"
         }
       ],
-      "lastUpdated": "4/2/2020, 5:50:41 PM"
+      "lastUpdated": "4/3/2020, 8:15:37 PM"
     },
     {
       "frontmatter": {},
@@ -134,7 +246,7 @@ export const siteData = {
           "slug": "references"
         }
       ],
-      "lastUpdated": "4/3/2020, 5:57:00 PM"
+      "lastUpdated": "4/3/2020, 8:15:37 PM"
     },
     {
       "frontmatter": {},
@@ -197,7 +309,7 @@ export const siteData = {
           "slug": "references"
         }
       ],
-      "lastUpdated": "4/3/2020, 5:57:00 PM"
+      "lastUpdated": "4/3/2020, 8:15:37 PM"
     },
     {
       "title": "关键字",
@@ -333,7 +445,7 @@ export const siteData = {
           "slug": "proxify"
         }
       ],
-      "lastUpdated": "4/3/2020, 5:57:00 PM"
+      "lastUpdated": "4/3/2020, 8:15:37 PM"
     },
     {
       "title": "Basic Types",
@@ -414,7 +526,7 @@ export const siteData = {
           "slug": "nullable-types"
         }
       ],
-      "lastUpdated": "4/3/2020, 5:57:00 PM"
+      "lastUpdated": "4/3/2020, 8:15:37 PM"
     }
   ],
   "themeConfig": {
@@ -434,8 +546,34 @@ export const siteData = {
         "link": "/typealias/"
       },
       {
+        "text": "Advanced",
+        "items": [
+          {
+            "text": "namespace",
+            "link": "/advanced/namespace"
+          },
+          {
+            "text": "declare",
+            "link": "/advanced/declare"
+          },
+          {
+            "text": "generics",
+            "link": "/advanced/generics"
+          }
+        ]
+      },
+      {
         "text": "Others",
-        "link": "/others/"
+        "items": [
+          {
+            "text": "interfacesDiffTypes",
+            "link": "/others/interfacesDiffTypes"
+          },
+          {
+            "text": "anyDiffUnknown",
+            "link": "/others/anyDiffUnknown"
+          }
+        ]
       },
       {
         "text": "Github",
@@ -486,6 +624,34 @@ export const siteData = {
             {
               "title": "Any vs Unknown",
               "path": "/others/anyDiffUnknown",
+              "collapsable": false,
+              "sidebarDepth": 2
+            }
+          ]
+        }
+      ],
+      "/advanced/": [
+        {
+          "title": "进阶",
+          "path": "/advanced/",
+          "collapsable": false,
+          "sidebarDepth": 2,
+          "children": [
+            {
+              "title": "命名空间",
+              "path": "/advanced/namespace",
+              "collapsable": false,
+              "sidebarDepth": 2
+            },
+            {
+              "title": "声明",
+              "path": "/advanced/declare",
+              "collapsable": false,
+              "sidebarDepth": 2
+            },
+            {
+              "title": "泛型",
+              "path": "/advanced/generics",
               "collapsable": false,
               "sidebarDepth": 2
             }
