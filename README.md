@@ -14,3 +14,5 @@
 - others 其它
   - [interface vs type alias](https://github.com/blacklisten/learn-typescript/blob/master/docs/docs/others/interfacesDiffTypes.md)
   - [Any vs Unknown](https://github.com/blacklisten/learn-typescript/blob/master/docs/docs/others/anyDiffUnknown.md) 
+
+更多请阅读 [冴羽的 TypeScript4 中文文档](http://ts.yayujs.com/learn-typescript/#%E8%B5%B7%E5%9B%A0)
